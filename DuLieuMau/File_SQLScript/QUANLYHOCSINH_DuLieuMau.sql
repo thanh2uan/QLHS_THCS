@@ -1,0 +1,40 @@
+﻿
+use [QUANLYHOCSINH]
+GO
+exec [dbo].[ThemNamHoc] 'NH0000000000',2014,2015
+GO
+exec [dbo].[ThemHocKy] 'HK0000000000',N'Học Kỳ 1'
+GO
+exec [dbo].[ThemHocKy] 'HK0000000001',N'Học Kỳ 2'
+GO
+exec [dbo].[ThemHocKy] 'HK0000000002',N'Học Kỳ 3'
+GO
+
+exec [dbo].[ThemHocKyNamHoc] 'HKNH00000000','NH0000000000','HK0000000000'
+GO
+exec [dbo].[ThemHocKyNamHoc] 'HKNH00000001','NH0000000000','HK0000000001'
+GO
+exec [dbo].[ThemHocKyNamHoc] 'HKNH00000002','NH0000000000','HK0000000002'
+
+
+
+exec [dbo].[ThemLop] 'LH0000000000','10A1','KL0000000000'
+GO
+exec [dbo].[ThemLop] 'LH0000000001','10A2','KL0000000000'
+GO
+exec [dbo].[ThemLop] 'LH0000000002','10A3','KL0000000000'
+GO
+exec [dbo].[ThemLop] 'LH0000000003','10A4','KL0000000000'
+GO
+exec [dbo].[ThemLop] 'LH0000000004','11A1','KL0000000001'
+GO
+exec [dbo].[ThemLop] 'LH0000000005','11A2','KL0000000001'
+GO
+exec [dbo].[ThemLop] 'LH0000000006','11A3','KL0000000001'
+GO
+exec [dbo].[ThemLop] 'LH0000000007','12A1','KL0000000002'
+GO
+exec [dbo].[ThemLop] 'LH0000000008','12A2','KL0000000002'
+GO
+
+
